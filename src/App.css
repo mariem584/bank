@@ -1,0 +1,84 @@
+.hero{
+ background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+
+}
+/* .img_hero{
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214D76 100%);
+    filter: blur(61.5px);
+} */
+.getStarted{
+background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+/* text-fill-color: transparent; */
+}
+.stats{
+    position: absolute;
+    top: 21px;
+    margin-left: 15px;
+}
+.circle {
+
+border: #33BBCF 2px solid;
+
+}
+.button{
+background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+border-radius: 10px;
+}
+.list:hover{
+    background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+    box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+}
+.feedback:hover{
+background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+border-radius: 20px;
+padding: 30px;
+padding-left: 50px;
+box-sizing: border-box;
+width: 50%;
+height: 400px;
+margin-right: 5%;
+}
+.cta{
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+    height: 280px;
+    margin-left:5%;
+    width: 80%;
+}
+.footer{
+    
+    /* background-color: #FFFFFF; */
+    /* width: 200%; */
+    /* width: 1640px;
+    height: 418px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 30px;
+    position: absolute;
+    left: 0%;
+    /* background: rgba(11, 10, 12, 0.6); */
+    /* background-position: -2px; */
+    
+}
+.footerLine{
+    border-bottom: 1px solid #3F3E45;
+}
+/* .hr{
+    height: 2px;
+    background-color: #ff0000;
+    border: none;
+} */
